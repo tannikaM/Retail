@@ -22,7 +22,7 @@ public class RetailController {
 
     @PutMapping (value = "/{id}", produces = "application/json")
     public void UpdateDetail(@PathVariable String id) {
-
+        System.out.println("id" + id);
     }
 
 }
